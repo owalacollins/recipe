@@ -1,0 +1,302 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    
+}
+header{
+    
+     
+}
+.top{
+    height: 50vh;
+   background-color: brown; 
+}
+section{
+    max-width: 900px;
+    margin: 0 auto;
+    height: auto;
+    
+}
+nav{
+    background-color: rgb(33, 63, 33);
+    height: 7vh;
+}
+ul{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+li{
+    list-style-type:none;
+    margin: 10px;
+    color: rgb(255, 255, 255);
+}
+.hed{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.left{
+    width: 250px;
+}
+ header button{
+    display: block;
+    margin: 10px auto;
+    padding: 6px 25px;
+    background-color:transparent;
+    color: antiquewhite;
+    border: 2px white solid;
+}
+.left p{
+    color: antiquewhite;
+}
+h1{
+    margin: 10px;
+}
+.hedtop{
+    display: none;
+}
+nav img{
+    width: 40px;
+    display: none;
+}
+.active{
+ top: 20px;
+}
+main h2{
+    text-align: center;
+    text-decoration: underline;
+    color: green;
+    font-style: italic;
+    margin-top: 10px;
+}
+.foods{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.recipe{
+    max-width: 400px;
+    height: 200px;
+    margin: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: white;
+}
+.recipe p{
+ text-align: center;
+ width: 300px;
+}
+.recipe h3{
+    margin: 10px;
+    color: bisque;
+
+}
+.foods{
+  margin-left: 0px;
+}
+.recipe button{
+    display: block;
+    margin: 10px auto;
+    padding: 5px 10px;
+    background-color:rgb(45, 65, 14);
+    color: antiquewhite;
+    border: 2px rgb(4, 2, 2) solid;
+}
+.recipe1{
+    background-image:linear-gradient(rgba(0, 0, 0, 0.47), rgba(0, 0, 0, 0.493)),url(imgs/menu1.jpg);
+}
+.recipe2{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.47), rgba(0, 0, 0, 0.493)),url(imgs/menu2.jpg);
+}
+.recipe3{
+    background-image:linear-gradient(rgba(0, 0, 0, 0.47), rgba(0, 0, 0, 0.493)), url(imgs/menu3.jpg);
+}
+.recipe4{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.47), rgba(0, 0, 0, 0.493)),url(imgs/menu4.jpg);
+}
+.ceo{
+    border: 1px dotted red;
+    border-radius: 10px;
+    width: 600px;
+    margin: 0 auto;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+}
+.aboutceo h4{
+ text-align: center;
+ margin: 10px;
+}
+.aboutceo p{
+    width: 70%;
+    margin-left: 50px;
+}
+.aboutceo button{
+ padding: 5px 15px;
+ background-color: green;
+ color: white;
+ display: block;
+ margin: 10px auto;
+
+}
+.recip{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.image{
+    width: 100px;
+    margin: 5px;
+}
+.image img{
+    width: 100%;
+    height: 100px;
+}
+.str img{
+    width: 15px;
+    height: 15px;
+}
+#nvbr h1{
+    display: none;
+}
+/* footer */
+footer{
+    width: 100%;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+}
+.footer{
+    background-color: rgb(101, 101, 103);
+    width: 900px;
+    padding: 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+footer h3{
+    color: white;
+    font-style: italic;
+    text-transform: capitalize;
+    margin: 10px;
+}
+.footer div{
+    margin: 20px;
+}
+.navigate h5{
+    margin: 10px;
+    color: black;
+}
+.more p{
+    max-width: 200px;
+} h5 a{
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    text-transform: capitalize;
+}
+h5 a:hover{
+    color: red;
+}
+.contact img{
+    width: 40px;
+    border-radius: 50%;
+    border: 1px solid white;
+
+}
+
+@media (max-width:674px){
+
+    .left p{
+        display: none;
+    } 
+    .hed img{
+        display: block;
+        margin: 0 auto;
+    }
+    .hed{
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        flex-direction: column;
+    }
+    .hedbtm{
+        display: none;
+    }
+    .hedtop{
+        display:block;
+        text-align: center;
+    }
+    .top{
+        height: 90vh;
+        width: 100%;
+       background-color: brown; 
+    }
+    .footer{
+        background-color: rgb(101, 101, 103);
+        width: 80%;
+        padding: 30px;
+        display: flex;
+        justify-content: space-between;
+        flex-direction: column;
+        
+    
+}
+@media (max-width:500px){ 
+    ul{
+       
+        position: relative;
+        top: -900px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        background-color: rgb(255, 255, 255);
+        backdrop-filter: blur(20px);
+        width: 90%;
+        height: 70vh;
+        display: block;
+        margin: 0 auto;
+        padding: 10px;
+        box-shadow: 0 40px 60px rgba(0, 0, 0, 0.1);
+        transition: 3s;
+        
+    }
+    li{
+        list-style-type:none;
+        color: rgb(13, 11, 11);
+        text-align: center;
+        margin-top: 20px;
+        border-bottom: 1px solid rgb(199, 11, 11);
+    }
+    nav img{
+        width: 40px;
+        display: block;
+    }
+    ul img{
+        width: 20px;
+    }
+    .ceo{
+        border: 1px dotted red;
+        border-radius: 10px;
+        width: 70%;
+        margin: 0 auto;
+         display: flex;
+         justify-content: center;
+         align-items: center;
+         flex-direction: column;
+    }
+    .ceo img{
+        width: 100%;
+    }
+    #nvbr h1{
+        display: block;
+    }
+ }
